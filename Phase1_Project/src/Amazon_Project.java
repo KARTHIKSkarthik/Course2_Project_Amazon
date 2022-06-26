@@ -5,8 +5,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Amazon_Project {
-
-	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+public static void main(String[] args) throws ClassNotFoundException, SQLException {
 	//Code to retrieve table
 		
 		 String  dbUrl = "jdbc:mysql://localhost:3306/Amazon";
@@ -26,5 +25,4 @@ public class Amazon_Project {
            System.out.println();
 	}
 	}
-
 }
